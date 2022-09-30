@@ -13,6 +13,6 @@ def template():
 def template():
     return render_template('contact.html')
 
-@app.route('/experiment')
+@app.route('/experiments')
 def template():
     return render_template('experiments.html')
