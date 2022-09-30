@@ -15,4 +15,4 @@ def template():
 
 @app.route('/experiment')
 def template():
-    return render_template('experiment.html')
+    return render_template('experiments.html')
