@@ -8,3 +8,11 @@ def home():
 @app.route('/work_history')
 def template():
     return render_template('work_history.html')
+
+@app.route('/contact')
+def template():
+    return render_template('contact.html')
+
+@app.route('/experiment')
+def template():
+    return render_template('experiment.html')
